@@ -1,0 +1,71 @@
+﻿<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gere uma sequência própria: múltiplos de três viram Pula, múltiplos de cinco viram Salta e múltiplos comuns recebem os dois nomes.">
+    <title>
+      Sequência Pula Salta
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js">
+    </script>
+  </head>
+  <body>
+    <header class="topo">
+      <a class="marca" href="index.html">
+        PROJETO
+        <span>
+          ·
+        </span>
+        Sequência
+      </a>
+      <span class="selo">
+        DEMONSTRAÇÃO LOCAL
+      </span>
+    </header>
+    <main>
+      <section class="abertura">
+        <p class="sobretitulo">
+          ESTUDO INTERATIVO · JAVASCRIPT
+        </p>
+        <h1>
+          Sequência Pula Salta
+        </h1>
+        <p class="introducao">
+          Gere uma sequência própria: múltiplos de três viram Pula, múltiplos de cinco viram Salta e múltiplos comuns recebem os dois nomes.
+        </p>
+      </section>
+      <section class="painel">
+        <form id="formulario" class="grade">
+          <div class="campo">
+            <label for="inicio">
+              Começar em
+            </label>
+            <input id="inicio" type="number" min="1" value="1">
+          </div>
+          <div class="campo">
+            <label for="fim">
+              Terminar em
+            </label>
+            <input id="fim" type="number" min="1" value="40">
+          </div>
+          <div class="acoes">
+            <button>
+              Montar trilha
+            </button>
+          </div>
+        </form>
+        <div id="resultado" class="resultado" aria-live="polite">
+        </div>
+      </section>
+      <p class="etiqueta">
+        REGRA: ×3 = PULA · ×5 = SALTA · ×3 E ×5 = PULASALTA
+      </p>
+    </main>
+    <footer>
+      Projeto demonstrativo independente · dados fictícios · sem serviços externos
+    </footer>
+  </body>
+</html>
+
